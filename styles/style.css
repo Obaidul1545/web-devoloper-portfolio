@@ -169,7 +169,7 @@ header {
 #about-section .about-contant .info {
   display: flex;
   justify-content: space-between;
-  padding: ;
+  /* padding: ; */
 }
 #about-section .about-contant .info .info-item li {
   color: rgb(117, 117, 117);
@@ -184,10 +184,111 @@ header {
 #skills {
   margin: 100px 0;
 }
-#skills .description {
+#skills .skill-content .description {
   color: rgb(117, 117, 117);
   font-size: 18px;
   font-weight: 400;
   margin: 30px 130px 50px;
   text-align: center;
+}
+#skills .skills-item {
+  display: flex;
+  gap: 24px;
+}
+#skills .skills-item .skill {
+  padding: 30px;
+  box-shadow: 0 0 10px #a8a8a8;
+}
+#skills .skills-item .skill h4 {
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 40px 0 20px;
+}
+#skills .skills-item .skill p {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+/* Resume section css */
+#resume {
+  margin-bottom: 100px;
+}
+#resume .resume-container {
+  display: flex;
+  gap: 24px;
+  margin: 100px 0 30px;
+}
+#resume .resume-container .resume-title {
+  color: rgb(71, 71, 71);
+  font-size: 30px;
+  font-weight: 700;
+}
+#resume .resume-container .resume-column .education-title,
+.experience-title {
+  color: rgb(71, 71, 71);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px 0 10px;
+}
+#resume .resume-container .resume-column .sub-title {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#resume .resume-container .resume-column .desription {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+}
+#resume .resume-container .resume-column hr {
+  margin: 30px 0;
+}
+#resume .resume-container .download-btn {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+/* Footer css  */
+#footer {
+  padding: 130px 0;
+  background: rgb(255, 248, 243);
+}
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+#footer .footer-column {
+  width: 50%;
+}
+#footer .footer-column .title {
+  text-align: left;
+  margin-bottom: 30px;
+}
+#footer .footer-column .description {
+  color: rgb(71, 71, 71);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#footer .footer-column .social-icon {
+  display: flex;
+  gap: 24px;
+}
+#footer .footer-column input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 18px 20px;
+  border: none;
+  margin-bottom: 24px;
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 0 0 10px #a8a8a8;
 }
